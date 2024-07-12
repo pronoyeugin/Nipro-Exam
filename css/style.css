@@ -1,0 +1,136 @@
+/*font family links*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*common start*/
+:root{
+	--lato:'Lato', sans-serif;
+	--rob:'Roboto', sans-serif;
+	--dark:#333333;
+	--light:#8e8e8e;
+	--white:#ffffff;
+	--fwr: 400;
+}
+body{
+	padding:0;
+	margin:0;
+	color: #8e8e8e;
+	font-family: var(--rob);
+	font-size: 16px;
+	font-weight: var(--fwr);
+	color: var(--light);
+}
+/*common end*/
+/*header start*/
+header{
+	background-color:var(--white);
+	padding: 10px 0;
+}
+.logo{}
+.logo img{}
+.menu ul li{
+	padding-top: 10px ;
+}
+.menu ul li a{
+	padding: 0 30px !important;
+	font-family: var(--lato);
+	font-size: 16px;
+	font-weight:700;
+	color:var(--light) !important ;
+	align-items: center;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color: var(--dark) !important;
+}
+.menu ul li a i{
+	margin: 0;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/Banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.slide_text{
+	padding: 180px 0;
+}
+.slide_text h1{
+	font-family: var(--lato);
+	font-size: 55px;
+	font-weight: 700;
+	color: var(--white);
+}
+.slide_text p{
+	padding: 50px 0 60px;
+	font-family: var(--rob);
+	font-size: 16px;
+	font-weight: 400;
+	line-height:30px;
+	color: var(--white);
+}
+.btn_common{
+	width: 200px;
+	height: 50px;
+	font-family:var(--rob);
+    font-size: 16px;
+    font-weight: 500;
+    color:var(--dark);
+    text-transform: uppercase;
+    background-color: var(--white);
+    border-radius:0;
+    transition: .3s;
+}
+.btn_common i{
+	margin-left: 25px;
+}
+.btn_common:hover{
+	background-color: var(--dark);
+	color:var(--white);
+}
+.s_button{
+	font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--light);
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.s_button:hover{
+	color: var(--dark);
+}
+/*banner end*/
+/*welcome start*/
+.welcome{
+	background-color: var(--white);
+	padding-bottom: 100px;
+}
+.w_text{}
+.c_shape{
+	margin: 0 auto 10px;
+	width: 5px;
+	height:50px;
+	color: var(--dark);
+}
+.custom_p{
+	padding:0 0 50px;
+}
+.w_text h1{
+	font-family: var(--rob);
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: var(--dark);
+}
+.w_text p{}
+.pe_icon i{
+	color: var(--dark)
+}
+
+/*welcome end*/
